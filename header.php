@@ -12,26 +12,21 @@
     <?php wp_body_open(); ?>
 
 
-<nav class="navbar bg-body-tertiary">
-  <div class="container">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li>
-            <a class="navbar-brand" href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_Final.png" alt="SportHive" width="30" height="24">
+    <!-- <div class="container sticky-top col-10 align-self-center"> -->
+  <nav class="navbar bg-secondary ">
+    <div class="container container-fluid sticky-top col-10 align-self-cente">
+      <a class="navbar-brand colorfont" href="#">A propos</a>
+      <a class="navbar-brand colorfont" href="#">Cours</a>
+      <a class="navbar-brand colorfont" href="#">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_Final.png" alt="SportHive" width="100%" height="100%">
             </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
-        </li>
-    </ul>
+      <a class="navbar-brand colorfont" href="#">Abonnement</a>
+      <a class="navbar-brand colorfont" href="#">Contact</a>
     </div>
-</nav>
+    <div class="connexion d-flex justify-content-end ">
+        <a class="nav-link colorfont" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_connexion.png" 
+            alt="LogoConnexion" width="22px" height="19px">Connexion </a>
+    </div>
+  </nav>
+  
+<!-- </div> -->
