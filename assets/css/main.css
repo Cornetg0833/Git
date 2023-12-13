@@ -91,10 +91,12 @@ footer p {
 
 .logofooter {
 
-display:block;
+display:flex;
 align-items: center;
-margin-top: 0px;
+margin-top: 0;
 margin-bottom: auto;
+margin-left: 0;
+margin-right: auto;
 }
 
 footer h5,li {
@@ -102,6 +104,7 @@ footer h5,li {
   font-family: 'raleway bold', sans-serif;
   font-size: 20px;
 }
+
 
 
 .contenuf {
@@ -122,6 +125,10 @@ hr {
 .border-top{
   border-color:#ffb900;
 }
+
+.boutonenv {
+  margin : 3px
+}
 @media screen and (max-width: 991px){
   .conex {
     position: absolute;
@@ -135,4 +142,10 @@ hr {
   .respfooterfals{
     display: none;
   }
+  .logofooter {
+
+    display:flex;
+    align-items: center;
+    margin: auto;
+    }
   }
