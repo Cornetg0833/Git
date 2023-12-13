@@ -1,14 +1,13 @@
 /*HEADER*/
 
 
-
+/*
   .connexion {
-    position: fixed;
+    position: absolute;
     top: 30px; /* Ajustez la valeur selon votre besoin pour définir la distance depuis le haut */
-    right: 55px; /* Ajustez la valeur selon votre besoin pour définir la distance depuis la droite */
+   /* right: 55px; /* Ajustez la valeur selon votre besoin pour définir la distance depuis la droite */
     
-}
-
+/*
 .colorfont {
   color: #222831;
 }
@@ -16,3 +15,60 @@
 
   color: #ffb900,
 }
+
+.logo {
+  display: none;
+  margin: auto;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url(file:///Applications/MAMP/htdocs/SportHive/wp-content/themes/SportHive_Theme/assets/img/logo_connexion.png);
+}
+
+@media screen and (max-width: 991px){
+.logo {
+    display:block;
+  }
+.logo2 {
+  display: none;
+}
+}
+
+*/
+
+.nacolor {
+color:#222831;
+}
+
+.bgcolor {
+  background-color: #eeeeee;
+}
+
+.conex{
+position: absolute;
+top: 30px; /* Ajustez la valeur selon votre besoin pour définir la distance depuis le haut */
+right: 55px;
+align-items: center;
+}
+
+@media screen and (max-width: 991px){
+  .conex {
+    position: absolute;
+    top: 250px; /* Ajustez la valeur selon votre besoin pour définir la distance depuis le haut */
+    right: 55px;
+  }
+  }
+
+/*
+jaune #ffb900;

@@ -11,22 +11,30 @@
     
     <?php wp_body_open(); ?>
 
-
-    <!-- <div class="container sticky-top col-10 align-self-center"> -->
-  <nav class="navbar bg-secondary ">
-    <div class="container container-fluid sticky-top col-10 align-self-cente">
-      <a class="navbar-brand colorfont" href="#">A propos</a>
-      <a class="navbar-brand colorfont" href="#">Cours</a>
-      <a class="navbar-brand colorfont" href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_Final.png" alt="SportHive" width="100%" height="100%">
-            </a>
-      <a class="navbar-brand colorfont" href="#">Abonnement</a>
-      <a class="navbar-brand colorfont" href="#">Contact</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nacolor bgcolor">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img id="logoheader" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_Final.png" alt="SportHive" width="100%" height="100%">
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">A propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cours</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Abonnements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contacte</a>
+        </li>
+      </ul>
+      <a class="nav-link conex" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_connexion.png" 
+              alt="LogoConnexion" width="22px" height="19px">Connexion </a>
     </div>
-    <div class="connexion d-flex justify-content-end ">
-        <a class="nav-link colorfont" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_connexion.png" 
-            alt="LogoConnexion" width="22px" height="19px">Connexion </a>
-    </div>
-  </nav>
-  
-<!-- </div> -->
+  </div>
+</nav>
