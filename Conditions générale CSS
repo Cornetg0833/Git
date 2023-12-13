@@ -1,0 +1,11 @@
+CSS
+h1{ font-family : Kanit regular; 
+font-size : 50px;}
+
+h2 {font-family : Raleway ; 
+font-size : 20px; 
+color: #FFB900; 
+}
+
+p {font-family: Raleway ;
+font-size : 15px; }
