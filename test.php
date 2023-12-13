@@ -110,3 +110,24 @@
 </nav>
 
 </body>
+
+<!-- <div class="me-auto order-1 contenuf d-flex justify-content-center">
+                    <img class="logofooter" id="logoheader" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_blanc.png" alt="SportHive">
+                    <h5>Restez actif</h5>
+                    <p>Nous vous enverrons des newsletters de notre blogs et les potentielles changements dans notre salle.</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+ <div class="d-flex flex-column mb-3">
+  <div class="p-2"><img class="logofooter" id="logoheader" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_blanc.png" alt="SportHive">
+    </div>
+  <div class="p-2"><h5>Restez actif</h5>
+    </div>
+  <div class="p-2"><p>Nous vous enverrons des newsletters de notre blogs et les potentielles changements dans notre salle.</p>
+    </div>
+  <div class="p-2"><input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button></div>
+    </div>                  
+                   
+                   
+                   -->

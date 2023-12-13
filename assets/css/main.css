@@ -62,13 +62,77 @@ right: 55px;
 align-items: center;
 }
 
+nav {
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+/*
+jaune #ffb900;
+
+
+/*Footer*/
+
+.respfootertrue {
+
+display: none;
+}
+
+.bg_footer {
+  background-color: #222831;
+}
+
+footer p {
+  color:#eeeeee;
+  font-family: 'Raleway', sans-serif,;
+  font-size: 15px;
+}
+
+.logofooter {
+
+display:block;
+align-items: center;
+margin-top: 0px;
+margin-bottom: auto;
+}
+
+footer h5,li {
+  color:#eeeeee;
+  font-family: 'raleway bold', sans-serif;
+  font-size: 20px;
+}
+
+
+.contenuf {
+
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+hr {
+  color:#ffb900;
+  height: 10px
+}
+
+.basfooter {
+  margin-bottom: 10px;
+}
+
+.border-top{
+  border-color:#ffb900;
+}
 @media screen and (max-width: 991px){
   .conex {
     position: absolute;
     top: 250px; /* Ajustez la valeur selon votre besoin pour définir la distance depuis le haut */
     right: 55px;
   }
+  .respfootertrue {
+    display: block;
+    margin: auto;
   }
-
-/*
-jaune #ffb900;
+  .respfooterfals{
+    display: none;
+  }
+  }
