@@ -1,0 +1,43 @@
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: raleway;
+}
+
+input[type=submit]{
+  width: 20%;
+  background-color: #FFB900;
+  color: white;
+  padding: 12px 20px;
+  margin: 0px 510px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #222831;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 300px;
+}
+
+.test{
+  padding-top:5px;
+  padding-bottom : 5px;
+  padding-left :0px;
+  
+}
+
+h1 {font-family : kanit medium; 
+font-size : 40px; 
+b{ color : #FFB900 } ; 
+  text-align: center;}
