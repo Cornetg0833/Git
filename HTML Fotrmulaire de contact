@@ -1,0 +1,21 @@
+<div>
+  <h1>Des <b>questions?</b></h1>
+  <form action="/action_page.php">
+    <label for="fname">Nom</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Prénom</label>
+    <input type="text" id="lname" name="lastname">
+
+      <label for="lname">Adresse mail</label>
+    <input type="text" id="lname" name="mail" >
+    
+    <DIV class="test">
+       <label for="lname">Votre message</label>
+      </DIV>
+<textarea cols="57" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
+</p>
+  
+    <input type="submit" value="Envoyer">
+  </form>
+</div>
