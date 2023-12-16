@@ -157,7 +157,7 @@ margin: 25px;
 .section {
   display: flex;
   align-items: stretch;
-  height: 100vh; /* 100% de la hauteur de la fenêtre */
+  height: 100%; /* 100% de la hauteur de la fenêtre */
 }
 
 .image-half {
@@ -252,13 +252,11 @@ div button.customy{
 
 
 .coach-card {
-  position: relative;
   margin: 0;
   ;
   clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);
-  width: 382px;
-  height: 521px;
-  margin-bottom: 30px;
+  width: 100%px;
+  margin-bottom: 10px;
 }
 .coach-card .card-body {
   position: absolute;
@@ -267,16 +265,69 @@ div button.customy{
   transform: translate(-50%, -50%);
   text-align: center;
   }
+.card{
+  border: 0;
+}
+
 /*
 
-Il faut cacher les images sauf celle qui est .active.
-Même chose pour les <article>
+Formulaire conaacte
 
 */
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: raleway;
+}
+
+input[type=submit]{
+  width: 20%;
+  background-color: #FFB900;
+  color: white;
+  padding: 12px 20px;
+  margin: 0px 510px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  clip-path: polygon(100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%, 15% 0);
+}
+
+input[type=submit]:hover {
+  background-color: #222831;
+}
+
+.divconta {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.test{
+  padding-top:5px;
+  padding-bottom : 5px;
+  padding-left :0px;
+  
+}
+
+.texth1 {font-family : kanit medium; 
+font-size : 40px; 
+text-align: center;}
+b{ color : #FFB900 } ; 
 
 
 
+.container{
+  padding-bottom: 30px;
+}
 
 /*clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);*/
 

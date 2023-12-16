@@ -100,34 +100,45 @@
 </section>
 
 <div class="container TitreSection text-center">
-        <H2>Nos Coach</h2>
+        <H2>Nos Coachs</h2>
     </div>
 
-<section class="espacement">
-    <div class="container text-center">
+<section class="">
+    <div class="container text-center sectionpad">
         <div class="row align-items-start">
-            <div class="card col coach-card" style="width: 18rem;">
-            <div class="card-body">
-                <img src="<?php echo get_template_directory_uri(); ?> /assets/img/subhaan-saleem-Jf7hr7ZQzg8-unsplash.jpg" class="card-img-top" alt="coach 1">
-                    
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card col " style="width: 18rem;">
+            <div class="coach-card ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
                     </div>
-            </div>
-            <div class="card col" style="width: 18rem;">
-                    <img src="<?php echo get_template_directory_uri(); ?>" class="card-img-top" alt="coach 2">
-                <div class="card-body">
+                    <div class="card-body">
+                        <h4 class="card-text">name</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col" style="width: 18rem;">
-                    <img src="<?php echo get_template_directory_uri(); ?>" class="card-img-top" alt="coach 3">
-                <div class="card-body">
+            <div class="card col " style="width: 18rem;">
+            <div class="coach-card ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
+                    </div>
+                    <div class="card-body">
+                    <h4 class="card-text">name</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col" style="width: 18rem;">
-                    <img src="<?php echo get_template_directory_uri(); ?>" class="card-img-top" alt="coach 4">
-                <div class="card-body">
+            <div class="card col " style="width: 18rem;">
+            <div class="coach-card ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
+                    </div>
+                    <div class="card-body">
+                    <h4 class="card-text">name</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <<div class="card col " style="width: 18rem;">
+            <div class="coach-card ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
+                    </div>
+                    <div class="card-body">
+                    <h4 class="card-text">name</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
@@ -135,8 +146,31 @@
     </div>
 </section>
 
-<img src="<?php echo get_template_directory_uri();?> /assets/img/banniere.png" alt="coach 1">
 
+<!--formulaire contacte-->
+<section class="container-fluid">
+<div class="divconta">
+  <h1 class="texth1">Des <b>questions?</b></h1>
+  <form action="/action_page.php">
+    <label for="fname">Nom</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Prénom</label>
+    <input type="text" id="lname" name="lastname">
+
+      <label for="lname">Adresse mail</label>
+    <input type="text" id="lname" name="mail" >
+    
+    <DIV class="test divconta">
+       <label for="lname">Votre message</label>
+      </DIV>
+<textarea cols="57" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
+</p>
+  
+    <input type="submit" value="Envoyer">
+  </form>
+</div>
+</section>
 <!--
 <section class="container cartemar">
 
