@@ -9,16 +9,16 @@
                     <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.4719130116287!2d4.36516067570676!3d50.85946265783115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c370c43d6195%3A0x94b0e4b9ad97de02!2sHaute%20%C3%89cole%20ISFSC!5e0!3m2!1sfr!2sbe!4v1702468516125!5m2!1sfr!2sbe" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-3 offset-1 order-2 contenuf respfooterfals align-self-center">
-                <ul class="navbar-nav  ">
-                        <li class="nav-item">
+                <ul class="navbar-nav">
+                        <li class="nav-item ">
                             <a class="nav-link " href="#">A propos</a></li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link " href="#">Cours</a> </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link " href="#">Abonnements</a> </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link " href="#">Contacte</a></li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link " href="#">Connexion</a> </li>
                     </ul>
                 </div>
@@ -42,16 +42,16 @@
                     <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.4719130116287!2d4.36516067570676!3d50.85946265783115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c370c43d6195%3A0x94b0e4b9ad97de02!2sHaute%20%C3%89cole%20ISFSC!5e0!3m2!1sfr!2sbe!4v1702468516125!5m2!1sfr!2sbe" width="100%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-10 offset-1 order-2 contenuf d-flex justify-content-center ">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
+                    <ul class="navbar-nav  ">
+                        <li class="nav-item ">
                             <a class="nav-link text-center" href="#">A propos</a></li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link text-center" href="#">Cours</a> </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link text-center" href="#">Abonnements</a> </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link text-center" href="#">Contacte</a></li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link text-center" href="#">Connexion</a> </li>
                     </ul>
                 </div>
@@ -75,15 +75,12 @@
     </section>
     <section class=" border-top border-warning ">
     <nav class="nav container">
-  <a class="nav-link basfooter link-light" href="#">@copyright </a>
-  <a class="nav-link basfooter link-light" href="#">Politique de confidentialité </a>
-  <a class="nav-link basfooter link-light" href="#">Cookies </a>
-  <a class="nav-link basfooter link-light" href="#">Conditions générales </a>
+  <a class="nav-link basfooter link-light fw-light" href="#">copyright </a>
+  <a class="nav-link basfooter link-light fw-light" href="#">Politique de confidentialité </a>
+  <a class="nav-link basfooter link-light fw-light" href="#">Cookies </a>
+  <a class="nav-link basfooter link-light fw-light" href="#">Conditions générales </a>
 </nav>
-        </li>
-        
-        </li>
-      </ul>
+
     </div>
   </div>
 </nav>
