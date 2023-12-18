@@ -68,10 +68,6 @@ margin-top: 60px;
 margin-bottom: 30px;
 }
 
-hr {
-  color:#ffb900;
-  height: 10px
-}
 
 .basfooter {
   margin-bottom: 10px;
@@ -100,6 +96,10 @@ hr {
   margin-bottom: 10px; /* Espace entre les lignes */
   padding: 10px;
   box-sizing: border-box;
+}
+
+.imgtaille{
+  width: 10%;
 }
 
 /*INDEX*/
@@ -248,16 +248,101 @@ div button.customy{
     border-radius: 0;
   }
 
+  .custom-button-sh:hover {
+
+    background-color: #eeeeee;
+    color: #222831;
+  }
+
+  .custom-button-vh {
+    background-color: #ffb900; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    border: none; /* Supprimer la bordure par défaut du bouton Bootstrap */
+    cursor: pointer;
+    clip-path: polygon(100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%, 15% 0); /* Modifier cette valeur selon la forme souhaitée */
+    border-radius: 0;
+  }
+
+  .custom-button-vh:hover {
+
+    background-color: #222831;
+   
+  }
+
+  .custom-button-noir {
+    background-color: #222831; /* Couleur de fond du bouton */
+    color: #eeeeee; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    border: none; /* Supprimer la bordure par défaut du bouton Bootstrap */
+    cursor: pointer;
+    clip-path: polygon(100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%, 15% 0); /* Modifier cette valeur selon la forme souhaitée */
+    border-radius: 0;
+    width: 70%;
+  }
+
+  .custom-button-noir.active {
+    background-color: #eeeeee; /* Couleur de fond du bouton */
+    color: #222831; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    border: none; /* Supprimer la bordure par défaut du bouton Bootstrap */
+    cursor: pointer;
+    clip-path: polygon(100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%, 15% 0); /* Modifier cette valeur selon la forme souhaitée */
+    border-radius: 0;
+  }
+
+  .custom-button-noir:hover {
+
+    background-color: #eeeeee;
+    color: #222831;
+   
+  }
+
+  .custom-button-b {
+    background-color: #127681; /* Couleur de fond du bouton */
+    color: #eeeeee; /* Couleur du texte du bouton */
+    padding: 5px 10px; /* Espacement intérieur du bouton */
+    border: none; /* Supprimer la bordure par défaut du bouton Bootstrap */
+    cursor: pointer;
+    clip-path: polygon(100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%, 15% 0); /* Modifier cette valeur selon la forme souhaitée */
+    border-radius: 0;
+    font-size: small;
+  }
+
+  .custom-button-b:hover {
+
+    background-color: #127681;
+    color: #eeeeee;
+    padding: 7px 14px;
+    font-size: medium;
+  }
+
+  .card-button-b {
+    text-align: center;
+    margin-top: auto; /* Place le bouton en bas de la carte */
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-button-plus {
+  text-align: center;
+  margin-top: auto; /* Place le bouton en bas de la carte */
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*Carouselle*/
 
 
 .coach-card {
   margin: 0;
-  ;
   clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);
   width: 100%px;
   margin-bottom: 10px;
 }
+
 .coach-card .card-body {
   position: absolute;
   top: 50%;
@@ -271,7 +356,7 @@ div button.customy{
 
 /*
 
-Formulaire conaacte
+Formulaire contacte
 
 */
 
@@ -332,7 +417,147 @@ b{ color : #FFB900 } ;
 /*clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);*/
 
 
+/*Connexion 1*/
 
+.menujaune {
+
+  background-color: #FFB900;
+}
+
+.interliste {
+
+  padding-top:20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.profilliste{
+
+padding-top: 40px;
+padding-bottom: 30px;
+
+}
+
+.findeliste {
+
+  padding-bottom: 40px;
+}
+
+.fondnoir{
+
+  background-color: #222831;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.paddinginfo {
+
+  padding-top: 30px;
+}
+
+.hexagon-card-2 {
+  margin: 0;
+  background-color: #222831;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 211px;
+  height: 183px;
+  margin-bottom: 30px;
+  color: #eeeeee;
+}
+
+.inner-shape-2 {
+  position: relative;
+  top: 20%; /* Ajustez la position verticale de la forme interne */
+  left: 0%; /* Ajustez la position horizontale de la forme interne */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Forme intérieure */
+  background-color: #ffb900; /* Couleur de fond de la forme intérieure */
+  width: 100%; /* Ajustez la largeur de la forme intérieure */
+  height: 30%; /* Ajustez la hauteur de la forme intérieure */
+  z-index: -1; /* Placez la forme intérieure en arrière-plan par rapport au texte */
+  align-items: center;
+} 
+
+.text-hexa{
+
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.container-abo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-abo {
+  text-align: center;
+}
+
+.color-list b{
+  color:#222831
+}
+
+.fondtrans{
+
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.coursblanc {
+  color:#eeeeee
+}
+
+.coursnoir {
+  color:#222831
+}
+
+/*connexion 2*/
+
+.cours-card {
+  margin: 0;
+  clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 10px;
+  background-color:#eeeeee;
+}
+
+.cours-card-2 {
+  margin: 0;
+  clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 10px;
+  background-color:#222831;
+}
+
+.boutonplus {
+
+    margin: 0;
+    background-color: #eeeeee;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 46px;
+    height: 40px;
+    padding: auto;
+
+}
+
+.boutonplus2 {
+
+  margin: 0;
+  background-color: #127681;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 46px;
+  height: 40px;
+  padding: auto;
+
+}
+
+.plus{
+
+  width: 100%;
+  height: 100%;
+}
 
 @media screen and (max-width: 991px){
   .conex {

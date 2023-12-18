@@ -72,19 +72,28 @@
                 </div>
             </div>
         </div>
+
     </section>
-    <section class=" border-top border-warning ">
-    <nav class="nav container">
-  <a class="nav-link basfooter link-light fw-light" href="#">copyright </a>
-  <a class="nav-link basfooter link-light fw-light" href="#">Politique de confidentialité </a>
-  <a class="nav-link basfooter link-light fw-light" href="#">Cookies </a>
-  <a class="nav-link basfooter link-light fw-light" href="#">Conditions générales </a>
-</nav>
-
-    </div>
-  </div>
-</nav>
-
+    <section class=" border-top border-warning container-fluid">
+        <div class="container ">
+            <div class="row align-items-center ">
+                <div class="col-6 me-auto">
+                    <nav class="nav container">
+                        <a class="nav-link basfooter link-light fw-light" href="#">copyright </a>
+                        <a class="nav-link basfooter link-light fw-light" href="#">Politique de confidentialité </a>
+                        <a class="nav-link basfooter link-light fw-light" href="#">Cookies </a>
+                        <a class="nav-link basfooter link-light fw-light" href="#">Conditions générales </a>
+                    </nav>
+                </div>
+                <div class="col-3 text-end">
+                
+                            <a class="" href="#"><img class="imgtaille" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_fb.png" alt="fb"></a>
+                            <a class="" href="#"><img class="imgtaille" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_insta.png" alt="fb"></a>
+                            <a class="" href="#"><img class="imgtaille" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_mail.png" alt="fb"></a>
+        
+                </div>
+            </div>
+        </div>
     </section>
 </footer>
 </html>

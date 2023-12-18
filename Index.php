@@ -32,13 +32,13 @@
                             <div class="col-12 ">
                                 <p> Grâce à la formule Hive, vous allez pouvoir proposer un cours de sport dans nos 
                                     salles mis à votre disposition.  </p>
-                             <button type="button" class="btn btn-warning">Warning</button>
+                                    <a href="#" class="btn btn-primary custom-button-vh">Bouton</a>
                             </div>
                         <div class="row ">
                             <div class="col-12">
                                 <p> Si vous souhaitez participer à un cours, les réservations se feront sur votre compte
                                     Admin que vous recevez lors de l’activation de votre abonnement.</p>
-                                <button type="button" class="btn btn-warning">Warning</button>
+                                    <a href="#" class="btn btn-primary custom-button-vh">Bouton</a>
                             </div>
                         </div>
                     </div>
@@ -171,73 +171,6 @@
   </form>
 </div>
 </section>
-<!--
-<section class="container cartemar">
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card custom-card">
-                <div class="card-body">
-                    <h5 class="card-title">Titre de la carte</h5>
-                    <p class="card-text">Contenu de la carte.</p>
-                    <a href="#" class="btn btn-primary">Bouton</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card custom-card">
-                <div class="card-body">
-                    <h5 class="card-title">Titre de la carte</h5>
-                    <p class="card-text">Contenu de la carte.</p>
-                    <a href="#" class="btn btn-primary">Bouton</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card custom-card">
-                <div class="card-body">
-                    <h5 class="card-title">Titre de la carte</h5>
-                    <p class="card-text">Contenu de la carte.</p>
-                    <a href="#" class="btn btn-primary">Bouton</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-
-
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="hexagon">
-                <div class="hex-content">
-                    <h4>Prix 1</h4>
-                    <button class="btn btn-primary">Acheter</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="hexagon">
-                <div class="hex-content">
-                    <h4>Prix 2</h4>
-                    <button class="btn btn-primary">Acheter</button>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="hexagon">
-                <div class="hex-content">
-                    <h4>Prix 3</h4>
-                    <button class="btn btn-primary">Acheter</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
--->
 
 <?php get_footer(); ?>
