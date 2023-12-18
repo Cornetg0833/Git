@@ -82,7 +82,7 @@
                         <a class="nav-link basfooter link-light fw-light" href="#">copyright </a>
                         <a class="nav-link basfooter link-light fw-light" href="#">Politique de confidentialité </a>
                         <a class="nav-link basfooter link-light fw-light" href="#">Cookies </a>
-                        <a class="nav-link basfooter link-light fw-light" href="#">Conditions générales </a>
+                        <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/conditions-general');?>">Conditions générales </a>
                     </nav>
                 </div>
                 <div class="col-3 text-end">
