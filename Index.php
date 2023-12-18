@@ -105,7 +105,7 @@
     </div>
 </section>
 
-<div class="container TitreSection text-center">
+<div class="container TitreSection text-end">
         <H2>Nos Coachs</h2>
     </div>
 
@@ -139,7 +139,7 @@
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <<div class="card col " style="width: 18rem;">
+            <div class="card col " style="width: 18rem;">
             <div class="coach-card ">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
                     </div>
@@ -154,7 +154,7 @@
 
 
 <!--formulaire contacte-->
-<section class="container-fluid">
+<section class="container-fluid margincontacte">
 <div class="divconta">
   <h1 class="texth1">Des <b>questions?</b></h1>
   <form action="/action_page.php">

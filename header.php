@@ -14,7 +14,7 @@
     
     <?php wp_body_open(); ?>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary nacolor bgcolor">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nacolor bgcolor sticky-top">
   <div class="container-fluid">
     <a  href="<?= home_url('/index');?>" class="navbar-brand"><img id="logoheader" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_Final.png" alt="SportHive" width="100%" height="100%">
       </a>

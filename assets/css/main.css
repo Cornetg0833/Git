@@ -165,7 +165,8 @@ margin-bottom: 30px;
 
 .TitreSection {
 
-margin: 25px;
+margin-top: 70px;
+margin-bottom: 40px;
 }
 
 .TitreSection2 {
@@ -433,6 +434,11 @@ b{ color : #FFB900 } ;
   padding-bottom: 30px;
 }
 
+.margincontacte {
+
+  margin-top: 70px;
+}
+
 /*clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);*/
 
 
@@ -587,7 +593,7 @@ h1{ font-family : Kanit;
 margin-bottom: 20px;
 }
   
-  h2 {font-family : Raleway ; 
+  .styleh2 {font-family : Raleway ; 
   font-size : 20px; 
   color: #FFB900; 
   }

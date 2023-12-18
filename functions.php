@@ -10,7 +10,7 @@ function wpbootstrap_styles_scripts() {
 
   wp_enqueue_script('jquery');
   wp_enqueue_script('bootstrap-bundle', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js', false, '1.0.0', true);
-  wp_enqueue_script('scripts', get_template_directory_uri().'/js/script.js', ['jquery'], '1.0.0', true);
+  wp_enqueue_script('scripts', get_template_directory_uri() . '/assets/javascript/script.js', false, 1, true);
 }
 add_action('wp_enqueue_scripts', 'wpbootstrap_styles_scripts');
 
