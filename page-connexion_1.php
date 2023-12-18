@@ -15,7 +15,7 @@
                     <a class="nav-link btn btn-primary custom-button-noir container" href="<?= home_url('/connexion-2');?>">Mes cours</a>
                 </li>
                 <li class="nav-item interliste findeliste ">
-                    <a class="nav-link btn btn-primary custom-button-noir container" href="#">Calendrier</a>
+                    <a class="nav-link btn btn-primary custom-button-noir container" href="<?= home_url('/connexion-3');?>">Calendrier</a>
                 </li>
             </ul>
         </div>

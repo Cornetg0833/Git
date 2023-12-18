@@ -1,3 +1,7 @@
+/*Gouttieère*/
+
+
+
 /*HEADER*/
 
 
@@ -103,6 +107,23 @@ margin-bottom: 30px;
 }
 
 /*INDEX*/
+
+.text-hive{
+
+  padding-top: 140px;
+  padding-bottom: auto;
+}
+
+.text-hive2{
+
+  padding-bottom: 30px;
+}
+.text-hive-bouton{
+
+  padding-right: 50px;
+  padding-left: auto;
+  margin-left: 30px;
+}
 
 
 #video-background {

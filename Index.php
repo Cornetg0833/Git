@@ -28,20 +28,26 @@
         <!-- Texte à droite (col-12 col-md-7) -->
         <div class="col-12 col-md-7">
             <div class="container ">
-                    <div class="row ">
-                            <div class="col-12 ">
-                                <p> Grâce à la formule Hive, vous allez pouvoir proposer un cours de sport dans nos 
+                    <div class="row container text-hive">
+                            <div class="col-12 container">
+                                <div class="text-hive2 d-flex">
+                                <p> Grâce à la formule Hive, <b>vous allez pouvoir proposer un cours de sport </b>dans nos 
                                     salles mis à votre disposition.  </p>
+                                    <div class="text-hive-bouton">
                                     <a href="#" class="btn btn-primary custom-button-vh">Bouton</a>
+                                    </div>
                             </div>
                         <div class="row ">
-                            <div class="col-12">
-                                <p> Si vous souhaitez participer à un cours, les réservations se feront sur votre compte
+                            <div class="col-12 d-flex">
+                                <p> <b>Si vous souhaitez participer à un cours</b>, les réservations se feront sur votre compte
                                     Admin que vous recevez lors de l’activation de votre abonnement.</p>
+                                <div class="text-hive-bouton">
                                     <a href="#" class="btn btn-primary custom-button-vh">Bouton</a>
+                                </div>
                             </div>
                         </div>
                     </div>
+</div>
             </div>
         </div>
     </div>

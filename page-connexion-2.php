@@ -12,10 +12,10 @@
                     <a class="nav-link btn btn-primary custom-button-noir container" aria-current="page" href="<?= home_url('/connexion_1');?>">Mon profil</a>
                 </li>
                 <li class="nav-item interliste ">
-                    <a class="nav-link active btn btn-primary custom-button-noir container" aria-current="page" href="#">Mes cours</a>
+                    <a class="nav-link active btn btn-primary custom-button-noir container" aria-current="page" href="<?= home_url('/connexion-2');?>">Mes cours</a>
                 </li>
                 <li class="nav-item interliste findeliste ">
-                    <a class="nav-link btn btn-primary custom-button-noir container" href="#">Calendrier</a>
+                    <a class="nav-link btn btn-primary custom-button-noir container" href="<?= home_url('/connexion-3');?>">Calendrier</a>
                 </li>
             </ul>
         </div>
