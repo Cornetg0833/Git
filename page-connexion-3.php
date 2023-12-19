@@ -9,7 +9,7 @@
                 </li>
                 <li class="color-list"><h3> <b>Mamira Salamie </b></h3></li>
                 <li class="nav-item interliste ">
-                    <a class="nav-link btn btn-primary custom-button-noir container" aria-current="page" href="#">Mon profil</a>
+                    <a class="nav-link btn btn-primary custom-button-noir container"  href="<?= home_url('/connexion_1');?>">Mon profil</a>
                 </li>
                 <li class="nav-item interliste ">
                     <a class="nav-link btn btn-primary custom-button-noir container" href="<?= home_url('/connexion-2');?>">Mes cours</a>
@@ -24,7 +24,7 @@
                 <h3>Calendrier</h3>
             </div>
             <div class="container">
-                
+
             </div>
         </div>
     </div>

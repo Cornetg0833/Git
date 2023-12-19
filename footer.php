@@ -52,7 +52,7 @@
                         <li class="nav-item ">
                             <a class="nav-link text-center" href="#">Contacte</a></li>
                         <li class="nav-item ">
-                            <a class="nav-link text-center" href="#">Connexion</a> </li>
+                            <a class="nav-link text-center" href="<?= home_url('/connexion_1');?>">Connexion</a> </li>
                     </ul>
                 </div>
                 <div class="d-flex flex-column mb-3 justify-content-center ">

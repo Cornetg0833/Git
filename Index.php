@@ -23,7 +23,7 @@
     <div class="row">
         <!-- Image à gauche (col-5) -->
         <div class="col-12 col-md-5">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banniere.png" alt="Votre Image" class="img-fluid section-image image-half">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banniere.png" alt="Votre Image" class="img-fluid section-image image-half borim ">
         </div>
         <!-- Texte à droite (col-12 col-md-7) -->
         <div class="col-12 col-md-7">
@@ -105,47 +105,78 @@
     </div>
 </section>
 
+
+<!-- carouselle -->
+
+
+
 <div class="container TitreSection text-end">
         <H2>Nos Coachs</h2>
     </div>
 
-<section class="">
-    <div class="container text-center sectionpad">
-        <div class="row align-items-start">
-        <div class="card col " style="width: 18rem;">
-            <div class="coach-card ">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-text">name</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <section class="testi">
+    <div class="container container-carou">
+        <div class="slider-wrapper">
+            <button id="prev-slide" class="slide-button material-symbols-outlined"> Chevron_left</button>
+            <div class="image-list">
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
+                </div>
+                <div>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
+                    <h4 class="text-center"> Nom </h4>
+                    <p class="text-center"> tata tata tata tata </p>
                 </div>
             </div>
-            <div class="card col " style="width: 18rem;">
-            <div class="coach-card ">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
-                    </div>
-                    <div class="card-body">
-                    <h4 class="card-text">name</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-            <div class="card col " style="width: 18rem;">
-            <div class="coach-card ">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
-                    </div>
-                    <div class="card-body">
-                    <h4 class="card-text">name</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>
-            <div class="card col " style="width: 18rem;">
-            <div class="coach-card ">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
-                    </div>
-                    <div class="card-body">
-                    <h4 class="card-text">name</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button id="next-slide" class="slide-button material-symbols-outlined"> Chevron_right</button>
+
+        </div>
+        <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+                <div class="scrollbar-thumb">
+
                 </div>
             </div>
         </div>
@@ -177,6 +208,18 @@
   </form>
 </div>
 </section>
+<!-- <div class="card col " style="width: 18rem;">
+            <div class="coach-card ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-text">name</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>  
+-->
+
+
 
 
 <?php get_footer(); ?>

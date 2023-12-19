@@ -1,7 +1,7 @@
-body{
+/*body{
   overflow-x: hidden;
 }
-
+*/
 /*Gouttieère*/
 
 
@@ -145,6 +145,10 @@ margin-bottom: 30px;
   text-align: center;
 }
 
+.borim {
+  display: block;
+}
+
 .blanc {
   background-color: #eeeeee; /* Fond blanc pour la page */
 }
@@ -156,7 +160,6 @@ margin-bottom: 30px;
 .section-image {
   max-width: 100%; /* Image prend toute la largeur disponible */
   height: auto;
-  border-right: 1px solid #ddd; /* Bordure à droite de l'image */
 }
 
 .section-text {
@@ -168,6 +171,12 @@ margin-bottom: 30px;
 margin-top: 70px;
 margin-bottom: 40px;
 }
+
+.TitreSection2{
+
+  margin-top: 70px;
+  
+  }
 
 .TitreSection2 {
 
@@ -374,6 +383,151 @@ div button.customy{
   border: 0;
 }
 
+.form-card-img {
+
+  clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);
+}
+/*---*/
+
+.testi {
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ min-height: 100vh;
+ 
+}
+
+.container-carou {
+
+  max-width: 1200px;
+  width: 95%;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.slider-wrapper .slide-button {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 58px;
+  color: #FFB900;
+  border: none;
+  outline: none;
+  background-color: #222831;
+  font-size: 2.2rem;
+  cursor: pointer;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  z-index: 1
+  
+}
+
+.slider-wrapper .slide-button#prev-slide{
+
+  left: -20px;
+
+}
+
+.slider-wrapper .slide-button#next-slide{
+
+  right: -20px;
+}
+
+.slider-wrapper .slide-button:hover{
+
+  background-color: #FFB900;
+  color: #222831;
+}
+
+.slider-wrapper .image-list{
+  display: grid;
+  gap: 18px;
+  font-size: 0;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;  
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar{
+
+  display: none;
+
+}
+
+.slider-wrapper .image-list .image-item {
+width: 325px;
+height: 400px;
+object-fit: cover;
+
+}
+
+.container-carou .slider-scrollbar {
+
+  height: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+
+  height: 2px;
+  width: 100%;
+  background-color: #222831;
+  position: relative;
+  border-radius: 4px;
+
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+height: 4px;
+
+
+}
+
+.slider-scrollbar .scrollbar-thumb {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background-color: #FFB900;
+  border-radius: inherit;
+  cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-thumb:active{
+
+  cursor: grabbing;
+  height: 8px;
+  top: -2px;
+
+}
+
+.slider-scrollbar .scrollbar-thumb::after{
+
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  bottom: -10px;
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+
 /*
 
 Formulaire contacte
@@ -385,7 +539,7 @@ input[type=text], select, textarea {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #eeeeee;
   border-radius: 4px;
   box-sizing: border-box;
   font-family: raleway;
@@ -409,7 +563,7 @@ input[type=submit]:hover {
 
 .divconta {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #eeeeee;
   padding-left: 300px;
   padding-right: 300px;
   padding-top: 30px;
@@ -626,4 +780,24 @@ margin-bottom: 20px;
     align-items: center;
     margin: auto;
     }
+
+  .slider-wrapper .slide-button {
+    display: none!important;
+
+  }
+
+  .slider-wrapper .image-list {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+
+  .slider-wrapper .image-list .image-item {
+    width: 280px;
+    height: 380px;
+
+  }
+
+  .slider-scrollbar .scrollbar-thumb {
+    width: 20%;
+  }
   }
