@@ -1,0 +1,10 @@
+h1{ font-family : Kanit regular; 
+font-size : 50px;}
+
+b {font-family : Raleway ; 
+font-size : 15px; 
+color: #FFB900; 
+}
+
+p {font-family: Raleway ;
+font-size : 15px; }
