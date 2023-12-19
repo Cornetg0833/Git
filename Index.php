@@ -29,7 +29,7 @@
         <div class="col-12 col-md-7">
             <div class="container ">
                     <div class="row container text-hive">
-                            <div class="col-12 container">
+                            <div class=" container ">
                                 <div class="text-hive2 d-flex">
                                 <p> Grâce à la formule Hive, <b>vous allez pouvoir proposer un cours de sport </b>dans nos 
                                     salles mis à votre disposition.  </p>
@@ -38,7 +38,7 @@
                                     </div>
                             </div>
                         <div class="row ">
-                            <div class="col-12 d-flex">
+                            <div class=" d-flex">
                                 <p> <b>Si vous souhaitez participer à un cours</b>, les réservations se feront sur votre compte
                                     Admin que vous recevez lors de l’activation de votre abonnement.</p>
                                 <div class="text-hive-bouton">
@@ -61,7 +61,7 @@
 
 <section>
     <div class="container">
-        <div class="row">
+        <div class="row ">
             <div class="col-md-4">
                 <div class="card hexagon-card">
                     <div class="card-body">
@@ -208,17 +208,6 @@
   </form>
 </div>
 </section>
-<!-- <div class="card col " style="width: 18rem;">
-            <div class="coach-card ">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="Votre Image" class=" img-fluid section-image icard-img-top">
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-text">name</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-            </div>  
--->
-
 
 
 

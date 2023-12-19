@@ -52,7 +52,7 @@
                         <li class="nav-item ">
                             <a class="nav-link text-center" href="#">Contacte</a></li>
                         <li class="nav-item ">
-                            <a class="nav-link text-center" href="<?= home_url('/connexion_1');?>">Connexion</a> </li>
+                            <a href="<?= home_url('/connexion_1');?>" class="nav-link text-center" >Connexion</a> </li>
                     </ul>
                 </div>
                 <div class="d-flex flex-column mb-3 justify-content-center ">
@@ -79,9 +79,9 @@
             <div class="row align-items-center ">
                 <div class="col-6 me-auto">
                     <nav class="nav container">
-                        <a class="nav-link basfooter link-light fw-light" href="#">copyright </a>
-                        <a class="nav-link basfooter link-light fw-light" href="#">Politique de confidentialité </a>
-                        <a class="nav-link basfooter link-light fw-light" href="#">Cookies </a>
+                        <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/');?>">copyright </a>
+                        <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/politique');?>">Politique de confidentialité </a>
+                        <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/cookies');?>">Cookies </a>
                         <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/conditions-general');?>">Conditions générales </a>
                     </nav>
                 </div>

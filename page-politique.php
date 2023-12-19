@@ -1,3 +1,6 @@
+<?php get_header(); ?>
+<section class="marge1 container">
+
 <h1>Politique de confidentialité </h1>
 <h2>1.Généralité</h2>
 <p> <ul><b>SportHive SA </b></ul> 
@@ -172,3 +175,5 @@ des données (Data Protection Officer – DPO) à l’adresse privacy@colruytgro
 <h2>9) Modifications de la Déclaration de confidentialité</h2>
 <p>Nous développons et faisons évoluer en permanence nos services afin de pouvoir continuer à vous proposer la meilleure offre possible à tout moment. C’est pourquoi nous adapterons régulièrement la présente Déclaration de confidentialité afin qu’elle expose toujours correctement la manière dont nous traitons vos données à caractère personnel. Bien que nous mettions tout en oeuvre pour vous avertir en cas de modifications, nous vous recommandons tout de même de consulter régulièrement notre Déclaration de confidentialité. Il est en effet de votre responsabilité de vous tenir au courant des adaptations.</p>
 <p>La présente Déclaration de confidentialité a été modifiée pour la dernière fois le 13 décembre 2023.</p>
+</section>
+<?php get_footer(); ?>

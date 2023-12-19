@@ -24,16 +24,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">A propos</a>
+          <a class="nav-link tailhead" aria-current="page" href="#">A propos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cours</a>
+          <a class="nav-link tailhead" href="#">Cours</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Abonnements</a>
+          <a class="nav-link tailhead" href="#">Abonnements</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link">Contacte</a>
+          <a class="nav-link tailhead">Contacte</a>
         </li>
       </ul>
       <a  href="<?= home_url('/connexion_1');?>" class="nav-link conex"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_connexion.png" 
