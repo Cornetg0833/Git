@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><link rel="stylesheet" href="Apropos.CSS.CSS">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<h1>A propos </h1>
+
+<section>
+    <img src="istockphoto-1560352627-1024x1024.png" alt="img" height="200px" >
+  <p>
+   <b>La salle de sport SportHive</b> a été créée en janvier 2023 par Guillaume 
+    Cornet et Amira Samaali. 
+    <br>L’idée d’une salle de sport où l’ont peu découvrir de nouvelles
+     activités sportives chaque mois grâce aux différents coachs sportif 
+    et à la <b>Formule Hive</b> qui permet aux amateurs ou aux professionnels 
+    à proposer un cours de sport aux personnes ayant un abonnement.
+    </p>
+    
+</section>
+
+<center>
+  <h2>SportHive</h2>
+  <p>Le nom inventé par <b>Guillaume Cornet et Amira Samaali</b>, donne l’idée d’une salle de sport privé, familial et unie comme une ruche d’abeille. 
+    « Hive » qui veut dire ruche en langue anglaise, les créateurs ont eu l’idée d’unir la couleur jaune et la signification du mot pour créer un 
+    projet qui se dit familial et uni. Tout le monde est considéré et apprécié dans la salle de sport, les coachs toujours disponibles pour aider nos 
+    adhérents ou leur proposer des coachings spécifiques pour chacun. </p>
+</center>
+
+
+<h2>La vidéo</h2>
+<section>
+
+<video src="SalleSport.mp4" alt="video" height="200px"></video>
+<p>Une vidéo a été créée en octobre 2023 par la <b>société GCAS</b>. 
+Le projet a été réalisé dans le but d’avoir une idée de ce que ressemble une salle de sport chez SportHive, de pouvoir observer les salles que nous proposons pour la formule Hive et de voir le matériel disponible pour nos adhérents.</p>
+
+</section>
+
+<section2>
+
+  <div>
+    <center><h1>Des <b>questions?</b></h1></center>
+    <form action="/action_page.php">
+      <label for="fname">Nom</label>
+      <input type="text" id="fname" name="firstname">
+  
+      <label for="lname">Prénom</label>
+      <input type="text" id="lname" name="lastname">
+  
+        <label for="lname">Adresse mail</label>
+      <input type="text" id="lname" name="mail" >
+      
+      <DIV class="test">
+         <label for="lname">Votre message</label>
+        </DIV>
+  <textarea cols="57" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
+  </p>
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>
+
+</section2>
+</html>
