@@ -61,8 +61,8 @@
 
 <section>
     <div class="container">
-        <div class="row ">
-            <div class="col-md-4">
+        <div class="row ali">
+            <div class="col-md-4 ">
                 <div class="card hexagon-card">
                     <div class="card-body">
                         <h3 class="card-title">30€</h3>
@@ -185,10 +185,10 @@
 
 
 <!--formulaire contacte-->
-<section class="container-fluid margincontacte">
-<div class="divconta">
-  <h1 class="texth1">Des <b>questions?</b></h1>
-  <form action="/action_page.php">
+<section class="container-fluid margincontacte divconta"> 
+    <h1 class="texth1">Des <b>questions?</b></h1>
+<div class="container d-flex justify-content-center">
+  <form action="/action_page.php" class="minimalw">
     <label for="fname">Nom</label>
     <input type="text" id="fname" name="firstname">
 

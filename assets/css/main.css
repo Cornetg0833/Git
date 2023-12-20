@@ -244,13 +244,16 @@ div button.customy{
 } 
 
 .hexagon-card {
-  
-  margin: 0;
+  margin: 15px;
   background-color: #222831;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-  width: 422px;
-  height: 366px;
-  margin-bottom: 30px;
+  width: 100%; /* Utiliser une unité relative */
+  max-width: 422px; /* Ajouter une largeur maximale si nécessaire */
+  height: auto; /* Utiliser une unité relative */
+}
+
+.col-md-4 {
+  flex: 1; /* Ajuster la flexibilité pour l'alignement des cartes */
 }
 
 .hexagon-card .card-body {
@@ -261,7 +264,10 @@ div button.customy{
   text-align: center;
   color: #fff;}
 
-  
+.ali{
+  display: flex;
+  justify-content: center;
+}
 
 
 .alignitem1 {
@@ -587,10 +593,9 @@ input[type=submit]:hover {
 .divconta {
   border-radius: 5px;
   background-color: #eeeeee;
-  padding-left: 300px;
-  padding-right: 300px;
   padding-top: 30px;
   padding-bottom: 30px;
+  
 }
 
 .test{
@@ -616,6 +621,11 @@ b{ color : #FFB900 } ;
   margin-top: 70px;
 }
 
+.minimalw {
+
+  min-width: 400px;
+  max-width: 800px;
+}
 
 
 /*Connexion 1*/
@@ -881,8 +891,22 @@ margin-bottom: 20px;
     margin-left:auto;
     margin-right: auto;
   }
+
+  .hexagon-card {
+    margin: auto;
+    background-color: #222831;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 422px;
+    height: 366px;
+    margin-bottom: 30px;
   }
 
+  div.card.hexagon-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+}
  
    

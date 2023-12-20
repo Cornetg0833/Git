@@ -33,7 +33,7 @@
           <a class="nav-link tailhead" href="#">Abonnements</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link tailhead">Contacte</a>
+          <a class="nav-link tailhead">Contact</a>
         </li>
       </ul>
       <a  href="<?= home_url('/connexion_1');?>" class="nav-link conex"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_connexion.png" 
