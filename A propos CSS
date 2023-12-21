@@ -1,0 +1,425 @@
+h1 {font-family: Kanit;
+}
+
+b{font-family: Raleway;
+color: #FFB900;}
+
+p{font-family: raleway;
+font-size: medium;}
+
+div{height:30px ;}
+
+head{background-color: #222831;}
+
+section {display: flex ;
+  text-align:unset;
+}
+
+img{margin-right: 15px;
+margin-bottom: 60px;}
+
+video{margin-right: 15px;
+margin-bottom: 30px;}
+
+body{content: center;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 100px 510px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-family: raleway;
+  }
+  
+  input[type=submit]{
+    width: 20%;
+    background-color: #FFB900;
+    color: white;
+    padding: 12px 20px;
+    margin: 100px 510px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #222831;
+  }
+  
+.test{
+    padding-top:5px;
+    padding-bottom : 5px;
+    padding-left :0px;
+  }
+  
+  h2 {font-family : kanit light; 
+  font-size : 20px; }
+
+  b{color : #FFB900  ; 
+    text-align: center;}
+
+
+
+
+/*HEADER*/
+
+
+
+.nacolor {
+  color:#222831;
+  }
+  
+  .bgcolor {
+    background-color: #eeeeee;
+  }
+  
+  .conex{
+  position: absolute;
+  top: 30px; /* Ajustez la valeur selon votre besoin pour définir la distance depuis le haut */
+  right: 55px;
+  align-items: center;
+  }
+  
+  nav {
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  
+  
+  /*
+  jaune #ffb900;
+  
+  
+  /*Footer*/
+  
+  .respfootertrue {
+  
+  display: none;
+  }
+  
+  .bg_footer {
+    background-color: #222831;
+  }
+  
+  footer p {
+    color:#eeeeee;
+    font-family: 'Raleway', sans-serif,;
+    font-size: 15px;
+  }
+  
+  .logofooter {
+  
+  display:flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: auto;
+  margin-left: 0;
+  margin-right: auto;
+  }
+  
+  footer h5,li {
+    color:#eeeeee;
+    font-family: 'raleway bold', sans-serif;
+    font-size: 20px;
+  }
+  
+  
+  
+  .contenuf {
+  
+  margin-top: 60px;
+  margin-bottom: 30px;
+  }
+  
+  hr {
+    color:#ffb900;
+    height: 10px
+  }
+  
+  .basfooter {
+    margin-bottom: 10px;
+  }
+  
+  .border-top{
+    border-color:#ffb900;
+  }
+  
+  .boutonenv {
+    margin : 3px
+  }
+  
+  .ma-liste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 300px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: 0 auto; /* Pour centrer la liste */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ma-liste-item {
+    width: 200px;
+    margin-bottom: 10px; /* Espace entre les lignes */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /*INDEX*/
+  
+  
+  #video-background {
+    position:static;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -1000;
+    
+  }
+  
+  #video-content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #ffb900;
+    text-align: center;
+  }
+  
+  .blanc {
+    background-color: #eeeeee; /* Fond blanc pour la page */
+  }
+  
+  .section-container {
+    margin: 0px 0; /* Espacement autour de la section */
+  }
+  
+  .section-image {
+    max-width: 100%; /* Image prend toute la largeur disponible */
+    height: auto;
+    border-right: 1px solid #ddd; /* Bordure à droite de l'image */
+  }
+  
+  .section-text {
+    padding-left: 20px; /* Espacement à gauche du texte */
+  }
+  
+  .TitreSection {
+  
+  margin: 25px;
+  }
+  
+  .TitreSection2 {
+  
+    margin: 25px;
+    }
+  
+  .section {
+    display: flex;
+    align-items: stretch;
+    height: 100%; /* 100% de la hauteur de la fenêtre */
+  }
+  
+  .image-half {
+    flex: 1; /* Occupe la moitié de la largeur disponible */
+    background: url('chemin/vers/votre-image.jpg') center/cover no-repeat; /* Remplacez par votre image */
+  }
+  
+  .text-half {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    flex: 1; /* Occupe la moitié de la largeur disponible */
+    padding: 20px; /* Ajoutez une marge intérieure pour l'espace entre le texte et les bords */
+    box-sizing: border-box; /* Inclut la marge intérieure dans la largeur */
+  }
+  
+  div button.customy{
+    display: block;
+    float: right;
+    
+  }
+  
+  .container-fluid{
+    --bs-gutter-x: 0rem;
+  }
+  
+  .positiontext {
+    display: flex;
+    align-content: center;
+  }
+  
+  /*carte heaxagonal ChatGPT*/
+  
+  .inner-shape {
+    position: relative;
+    top: 85%; /* Ajustez la position verticale de la forme interne */
+    left: 0%; /* Ajustez la position horizontale de la forme interne */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Forme intérieure */
+    background-color: #ffb900; /* Couleur de fond de la forme intérieure */
+    width: 100%; /* Ajustez la largeur de la forme intérieure */
+    height: 30%; /* Ajustez la hauteur de la forme intérieure */
+    z-index: -1; /* Placez la forme intérieure en arrière-plan par rapport au texte */
+  } 
+  
+  .hexagon-card {
+    position: relative;
+    margin: 0;
+    background-color: #222831;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 422px;
+    height: 366px;
+    margin-bottom: 30px;
+  }
+  
+  .hexagon-card .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;}
+  
+    
+  
+  
+  .alignitem1 {
+    align-items: end;
+  }
+  
+  .fondjaune {
+    background:#ffb900;
+    color: white;
+    margin: 0;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+    /*bouton*/
+  
+    .custom-button-sh {
+      background-color: #ffb900; /* Couleur de fond du bouton */
+      color: #fff; /* Couleur du texte du bouton */
+      padding: 10px 20px; /* Espacement intérieur du bouton */
+      border: none; /* Supprimer la bordure par défaut du bouton Bootstrap */
+      cursor: pointer;
+      clip-path: polygon(100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%, 15% 0); /* Modifier cette valeur selon la forme souhaitée */
+      border-radius: 0;
+    }
+  
+  /*Carouselle*/
+  
+  
+  .coach-card {
+    margin: 0;
+    ;
+    clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);
+    width: 100%px;
+    margin-bottom: 10px;
+  }
+  .coach-card .card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+  .card{
+    border: 0;
+  }
+  
+  /*
+  
+  Formulaire contacte
+  
+  */
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: raleway;
+  }
+  
+  input[type=submit]{
+    width: 20%;
+    background-color: #FFB900;
+    color: white;
+    padding: 12px 20px;
+    margin: 0px 510px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    clip-path: polygon(100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%, 15% 0);
+  }
+  
+  input[type=submit]:hover {
+    background-color: #222831;
+  }
+  
+  .divconta {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .test{
+    padding-top:5px;
+    padding-bottom : 5px;
+    padding-left :0px;
+    
+  }
+  
+  .texth1 {font-family : kanit medium; 
+  font-size : 40px; 
+  text-align: center;}
+  b{ color : #FFB900 } ; 
+  
+  
+  
+  .container{
+    padding-bottom: 30px;
+  }
+  
+  /*clip-path: polygon(100% 0%, 100% 85%, 80% 100%, 0 100%, 0 15%, 20% 0);*/
+  
+  
+  
+  
+  @media screen and (max-width: 991px){
+    .conex {
+      position: absolute;
+      top: 250px; /* Ajustez la valeur selon votre besoin pour définir la distance depuis le haut */
+      right: 55px;
+    }
+    .respfootertrue {
+      display: block;
+      margin: auto;
+    }
+    .respfooterfals{
+      display: none;
+    }
+    .logofooter {
+  
+      display:flex;
+      align-items: center;
+      margin: auto;
+      }
+    }
+    
