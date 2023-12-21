@@ -27,7 +27,7 @@
           <a class="nav-link tailhead fontheader" aria-current="page" href="<?= home_url('/a-propos');?>">A propos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link tailhead fontheader" href="#">Cours</a>
+          <a class="nav-link tailhead fontheader" href="<?= home_url('/formule-hive');?>">Cours</a>
         </li>
         <li class="nav-item">
           <a class="nav-link tailhead fontheader" href="<?= home_url('/abonnements');?>">Abonnements</a>

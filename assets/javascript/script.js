@@ -82,9 +82,4 @@ $(document).ready(function(){
 
 //pop-up utilisateur 
 
-function login() {
-    // You can add authentication logic here
-    alert('Login successful! Redirecting to user space...');
-    // Redirect to user space (replace 'user-space.php' with the actual page)
-    window.location.href = 'user-space.php';
-}
+

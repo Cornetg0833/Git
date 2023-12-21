@@ -994,6 +994,43 @@ margin-bottom: 20px;
 
 
 
+
+/*formule hive */
+
+.margehive {
+  margin-left: 3rem;
+  padding-right: 9rem;
+}
+.margehivetitre{
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.margeboutonhive{
+
+margin: 2rem;
+}
+
+.workinprogress{
+
+  width: auto;
+  height: 60rem;
+}
+
+
+/*404*/
+
+
+.grostexte{
+  font-size: 200px;
+}
+
+.mar404 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+
 /*mediaQuery*/
 
 

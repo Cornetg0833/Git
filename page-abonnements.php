@@ -98,7 +98,7 @@
 <textarea cols="57" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
 </p>
   
-    <input type="submit" value="Envoyer">
+<a href="#" class="btn btn-primary custom-button-sh">Envoyer</a>
   </form>
 </div>
 </section>

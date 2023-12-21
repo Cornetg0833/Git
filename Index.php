@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+
 <section class="container-fluid">
     <video id="video-background" autoplay muted loop>
         <source src="<?php echo get_template_directory_uri(); ?>/assets/img/SalleSport.mp4" type="video/mp4">
@@ -189,7 +190,7 @@
 <textarea cols="57" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
 </p>
   
-    <input type="submit" value="Envoyer">
+<a href="#" class="btn btn-primary custom-button-sh">Envoyer</a>
   </form>
 </div>
 </section>
