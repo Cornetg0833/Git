@@ -24,20 +24,20 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link tailhead" aria-current="page" href="#">A propos</a>
+          <a class="nav-link tailhead fontheader" aria-current="page" href="<?= home_url('/a-propos');?>">A propos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link tailhead" href="#">Cours</a>
+          <a class="nav-link tailhead fontheader" href="#">Cours</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link tailhead" href="#">Abonnements</a>
+          <a class="nav-link tailhead fontheader" href="<?= home_url('/abonnements');?>">Abonnements</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link tailhead">Contact</a>
+          <a class="nav-link tailhead fontheader" href="#section-cible">Contact</a>
         </li>
       </ul>
-      <a  href="<?= home_url('/connexion_1');?>" class="nav-link conex"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_connexion.png" 
-              alt="LogoConnexion" width="22px" height="19px">Connexion </a>
+      <a  href="<?= home_url('/connexion');?>" class="nav-link conex fontheader"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_connexion.png" 
+              alt="LogoConnexion" width="22px" height="19px" >Connexion </a>
     </div>
   </div>
 </nav>

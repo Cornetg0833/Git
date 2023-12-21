@@ -15,7 +15,7 @@
 </section>
 
     <div class="container TitreSection">
-        <H2>Formule Hive</h2>
+        <H2>Formule <b>Hive</b></h2>
     </div>
 
 <section class="cartemarbot"> 
@@ -26,29 +26,39 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/banniere.png" alt="Votre Image" class="img-fluid section-image image-half borim ">
         </div>
         <!-- Texte à droite (col-12 col-md-7) -->
+
+        <?php
+  $formule_hive = new WP_Query([ // je crée une variable $services
+    'post_type' => 'formule_hive', // la je précise quel post_type je veux (dans mon cas "formule_hive")
+    'post_status' => 'publish', // la je précise que je veux des posts qui sont publié
+    'limit' => 3, // dans mon cas je n'en ai besoin que de trois
+    'orderby' => 'date', // je les trie par date 
+    'date' => true // je récupéère ma date
+  ]);
+
+  if ($formule_hive->have_posts()): ?>
         <div class="col-12 col-md-7">
             <div class="container ">
                     <div class="row container text-hive">
+                    <?php while ($formule_hive->have_posts()): $formule_hive->the_post(); ?>
                             <div class=" container ">
-                                <div class="text-hive2 d-flex">
-                                <p> Grâce à la formule Hive, <b>vous allez pouvoir proposer un cours de sport </b>dans nos 
-                                    salles mis à votre disposition.  </p>
-                                    <div class="text-hive-bouton">
-                                    <a href="#" class="btn btn-primary custom-button-vh">Bouton</a>
-                                    </div>
-                            </div>
-                        <div class="row ">
+                            <div class="row ">
+                                <h4><?php the_title(); ?></h4>
                             <div class=" d-flex">
-                                <p> <b>Si vous souhaitez participer à un cours</b>, les réservations se feront sur votre compte
-                                    Admin que vous recevez lors de l’activation de votre abonnement.</p>
+                                <p> <?php the_content(); ?></p>
                                 <div class="text-hive-bouton">
-                                    <a href="#" class="btn btn-primary custom-button-vh">Bouton</a>
+                                    <a href="#" class="btn btn-primary custom-button-vh">Hive</a>
                                 </div>
                             </div>
-                        </div>
+                            </div>
+                            </div>
+                            <?php endwhile; ?>
+                    <?php else: ?>
+                    
+                    <?php endif; ?>
                     </div>
-</div>
-            </div>
+                    
+            
         </div>
     </div>
 </div>
@@ -111,64 +121,35 @@
 
 
 <div class="container TitreSection text-end">
-        <H2>Nos Coachs</h2>
+        <H2>Nos <b>Coachs</b></h2>
     </div>
+
+    <?php
+  $coachs = new WP_Query([ // je crée une variable $formule_hive
+    'post_type' => 'coachs', // la je précise quel post_type je veux (dans mon cas "formule_hive")
+    'post_status' => 'publish', // la je précise que je veux des posts qui sont publié
+    'limit' => 10, // dans mon cas je n'en ai besoin que de trois
+    'orderby' => 'date', // je les trie par date 
+    'date' => true // je récupéère ma date
+  ]);
+
+  if ($coachs->have_posts()): // ici je vérifie que $formule_hive posède bien mes posts
+?>
 
     <section class="testi">
     <div class="container container-carou">
         <div class="slider-wrapper">
             <button id="prev-slide" class="slide-button material-symbols-outlined"> Chevron_left</button>
             <div class="image-list">
+                <?php while ($coachs->have_posts()): $coachs->the_post(); ?>
                 <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
+                <img src="<?php the_post_thumbnail_url(); ?>" class="image-item form-card-img" alt="<?php the_title() ?> | service | <?php echo bloginfo('name'); ?>">
+                    <h4 class="text-center"> <?php the_title(); ?> </h4>
+                    <div>
+                        <p class="textcoachs text-center"> <?php echo get_the_content(); ?> </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
-                <div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/coach1.jpg" alt="#" class="image-item form-card-img">
-                    <h4 class="text-center"> Nom </h4>
-                    <p class="text-center"> tata tata tata tata </p>
-                </div>
+                <?php endwhile; ?> 
             </div>
             <button id="next-slide" class="slide-button material-symbols-outlined"> Chevron_right</button>
 
@@ -181,10 +162,14 @@
             </div>
         </div>
     </div>
+    <?php else: ?>
+  <h5>Il semblerait que notre équipe est composé de persone...</h5>
+<?php endif; ?>
 </section>
 
 
 <!--formulaire contacte-->
+<div id="section-cible">
 <section class="container-fluid margincontacte divconta"> 
     <h1 class="texth1">Des <b>questions?</b></h1>
 <div class="container d-flex justify-content-center">
@@ -208,7 +193,8 @@
   </form>
 </div>
 </section>
+</div>
 
 
 
-<?php get_footer(); ?>
+<?php get_footer(); ?> 

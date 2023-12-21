@@ -30,6 +30,8 @@ add_filter('upload_mimes', 'ajouter_types_mime_video');
 
 
 //function pour creer des post via wordpress 
+
+//Coachs 
 function create_post_type() {	 // function dans la quel j'ajouterais tous mes type de contenu
 	register_post_type('coachs'/* le nom de mon type de contenu */, [ // tableau avec mes options 
 		'labels' => [ // ça sera le nom afficher dans mon menu word press avec la traduction
@@ -42,6 +44,23 @@ function create_post_type() {	 // function dans la quel j'ajouterais tous mes ty
   	'rewrite' => ['slug' => 'coachs'], // j'applique une réécriture d'url "services" au lieu de "slug"
 		'menu_icon' => 'dashicons-admin-users' // je lui précise une icon dans la bar d'outil de l'admin wordpress
 	]);
+  
+  //Formule hive 
+  register_post_type('formule_hive'/* le nom de mon type de contenu */, [ // tableau avec mes options 
+		'labels' => [ // ça sera le nom afficher dans mon menu word press avec la traduction
+			'name' => __('formule_hive'), // __() permet a wordpress que c'est contenu de traduction
+			'singular_name' => __('formule_hive')
+		],
+    'supports' => ['title', 'editor', 'thumbnail'], // on precise que notre post_type support title(un titre), editor(l'éditeur de contenu) et thumbnail(une photo a la une)
+		'public' => true, // c'est un post_type publique
+		'has_archive' => false, // en cas de suppression on peut retrouver notre post disparu
+  	'rewrite' => ['slug' => 'formule_hive'], // j'applique une réécriture d'url "services" au lieu de "slug"
+		'menu_icon' => 'dashicons-heading' // je lui précise une icon dans la bar d'outil de l'admin wordpress
+	]);
 }
 add_action('init', 'create_post_type');
+
+
+
+
 

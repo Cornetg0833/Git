@@ -76,6 +76,7 @@ margin-bottom: 30px;
 
 .border-top{
   border-color:#ffb900;
+  background-color: #222831;
 }
 
 .boutonenv {
@@ -107,6 +108,12 @@ margin-bottom: 30px;
 
 /*INDEX*/
 
+.textcoachs {
+  font-size: 15px;
+  color: #222831;
+  align-items: center;
+  font-family: raleway;
+}
 
 
 .text-hive{
@@ -182,12 +189,18 @@ margin-bottom: 40px;
 .TitreSection2{
 
   margin-top: 70px;
-  
-  }
-
-.TitreSection2 {
 
   margin: 25px;
+  }
+  .TitreSection3{
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Kanit;
+    }
+
+  .fontheader {
+    font-family: kanit;
   }
 
 .section {
@@ -238,8 +251,8 @@ div button.customy{
   left: 0%; /* Ajustez la position horizontale de la forme interne */
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Forme intérieure */
   background-color: #ffb900; /* Couleur de fond de la forme intérieure */
-  width: 100%; /* Ajustez la largeur de la forme intérieure */
-  height: 30%; /* Ajustez la hauteur de la forme intérieure */
+  width: 422px; /* Ajustez la largeur de la forme intérieure */
+  height: 100%; /* Ajustez la hauteur de la forme intérieure */
   z-index: -1; /* Placez la forme intérieure en arrière-plan par rapport au texte */
 } 
 
@@ -248,8 +261,9 @@ div button.customy{
   background-color: #222831;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   width: 100%; /* Utiliser une unité relative */
-  max-width: 422px; /* Ajouter une largeur maximale si nécessaire */
-  height: auto; /* Utiliser une unité relative */
+  max-width: 26.375rem; /* Ajouter une largeur maximale si nécessaire */
+  height: 22.875rem; /* Utiliser une unité relative */
+  max-height: 22.875rem;
 }
 
 .col-md-4 {
@@ -555,7 +569,10 @@ height: 4px;
 }
 
 
-
+.taillecoachs {
+  height: 10px;
+  font-size: medium;
+}
 
 /*
 
@@ -799,7 +816,7 @@ margin-bottom: 20px;
 
   .marge1 {
 
-    padding-top: 30px ;
+    padding-top: 20px ;
     padding-bottom: 30px;
   }
 
@@ -827,12 +844,154 @@ margin-bottom: 20px;
       color: black;
     }
 
+
+    /*a propos*/
+
+
+    .backgrounpropos {
+
+      padding-top :50px;
+      padding-bottom: 50px;
+      background-color: #222831;
+      color: #eeeeee;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+   .h1propos {
+    margin-top: 30px;
+    font-family: Kanit;
+    margin-bottom: 20px;
+    }
+    
+  .propos b{font-family: Raleway;
+    color: #FFB900;}
+    
+    .propos p{font-family: raleway;
+    font-size: medium;}
+    
+    .propos div{height:30px ;}
+    
+    .propos head{background-color: #222831;}
+    
+
+    
+    .imgpropos
+    {
+    margin-right: 15px;
+    }
+    
+    .proposvideo{margin-right: 15px;
+    margin-bottom: 30px;}
+    
+ 
+      
+      .propos .test{
+        padding-top:5px;
+        padding-bottom : 5px;
+        padding-left :0px;
+      }
+      
+      .h2propos {font-family : kanit light; 
+      font-size : 40px; 
+    margin: 15px;
+    }
+    
+      .propos  b{color : #FFB900  ; 
+        text-align: center;}
+    
+    
+
 /*body*/
 
 
   body{
     overflow-x: hidden;
   }
+
+
+
+/*abbonements*/
+
+.hexagon-card-abonnements {
+  margin: 15px;
+  background-color: #222831;
+  clip-path: polygon(0 10%, 50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%);
+  width: 100%; /* Utiliser une unité relative */
+  max-width: 23.875rem; /* Ajouter une largeur maximale si nécessaire */
+  height: 43.75rem; /* Utiliser une unité relative */
+  max-height: 43.75rem;
+  color: #eeeeee;
+}
+
+
+.inner-shape-abo {
+  position: relative;
+  top: 85%; /* Ajustez la position verticale de la forme interne */
+  left: 0%; /* Ajustez la position horizontale de la forme interne */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); /* Forme intérieure */
+  background-color: #ffb900; /* Couleur de fond de la forme intérieure */
+  max-width: 23.875rem; /* Ajustez la largeur de la forme intérieure */
+  height: 100%; /* Ajustez la hauteur de la forme intérieure */
+  z-index: -1; /* Placez la forme intérieure en arrière-plan par rapport au texte */
+} 
+
+
+.padabo{
+  padding: 0;
+}
+
+.positionabo{
+
+    position: absolute;
+    top: 20%;
+    left: 10%;
+  
+}
+
+.margabophoto {
+
+  margin: 7px
+}
+
+.margetextabo {
+  margin-top: 50px;
+}
+
+
+
+/*Conexion*/
+
+
+.sechexa {
+  margin: 15px;
+  border-color: #FFB900;
+  border-width: 30px;
+  background-color: #fff;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 100%; /* Utiliser une unité relative */
+  max-width: 37rem; /* Ajouter une largeur maximale si nécessaire */
+  height: 32.042rem; /* Utiliser une unité relative */
+  max-height: 32.042rem;
+  padding: 10px;
+
+}
+
+.fondcon {
+  background-color: #222831;
+}
+
+.padco{
+  padding-left: 22rem ;
+  padding-right: 22rem;
+  background-color: #fff;
+  border-left: #ffb900;
+  border-right: #ffb900;
+  border-width: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 
 
 /*mediaQuery*/
