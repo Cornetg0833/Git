@@ -1,0 +1,7 @@
+<p>La page est en cours de chargement.. </p>
+
+<div class="loader">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
