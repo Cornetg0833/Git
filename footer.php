@@ -25,8 +25,8 @@
                 </div>
                 <div class="col-3 order-3 contenuf respfooterfals align-self-center">
                     <img class="logofooter d-flex justify-content-start" id="logoheader" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_blanc.png" alt="SportHive">
-                    <h5>Restez actif</h5>
-                    <p>Nous vous enverrons des newsletters de notre blog et les potentielles changements dans notre salle.</p>
+                    <h5>Restez actifs</h5>
+                    <p>Nous vous enverrons des newsletters de notre blog et les potentiels changements dans notre salle.</p>
                     <div class="input-group mb-3 gap-3">
                         <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
                         <button class="btn " type="button" id="button-addon2"><img class="" id="logo_envoyer" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_envoyer.png" alt="envoyer"></button>
@@ -64,7 +64,7 @@
                 <div class="d-flex flex-column mb-3 justify-content-center ">
                     <div class="p-2 "><img class="logofooter " id="logofooter" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_blanc.png" alt="SportHive">
                      </div>
-                    <div class="p-2"><h5 class="text-center">Restez actif</h5>
+                    <div class="p-2"><h5 class="text-center">Restez actifs</h5>
                      </div>
                     <div class="p-2"><p class="text-center">Nous vous enverrons des newsletters concernant notre blog ainsi que les éventuels changements dans notre salle.</p>
                      </div>

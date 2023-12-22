@@ -21,7 +21,7 @@
         </div>
         <div class="col-8 container">
             <div class="paddinginfo">
-                <h3>Coordonées</h3>
+                <h3>Coordonnées</h3>
                 <div class="row fondnoir container">
                     <div class="col-3 offset-md-1">
                         <ul class="">

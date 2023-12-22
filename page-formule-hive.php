@@ -9,7 +9,7 @@
 
 <br><b>Si vous souhaitez participer à un cours</b>, les réservations se font sur votre compte Admin que vous recevez lors de l'activation de votre abonnement.
 
-<br>Vous trouverez ci-dessous <b>le calendrier</b> avec les différents cours de sport proposés du mois. Si vous souhaitez proposer ou réserver un cours, veuillez vous connecter sur votre compte.</p>
+<br>Vous trouverez ci-dessous <b>le calendrier</b> avec les différents cours du mois. Si vous souhaitez proposer ou réserver un cours, veuillez vous connecter sur votre compte.</p>
 
                         <div class="text-center">
                             <a class="btn btn-primary custom-button-sh margeboutonhive" href="<?= home_url('/#');?>">Participer</a>
