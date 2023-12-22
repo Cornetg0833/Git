@@ -14,7 +14,7 @@
                             <a href="#" class="btn btn-primary custom-button-sh">Bouton</a>
                             <div class="d-flex justify-content-start  margetextabo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hexa_point.png" alt="hexa" width="25px" height="30px" class="margabophoto">
-                                <p class="text-start">Réservation limité 3 cours/semaines</p>
+                                <p class="text-start">Réservation limitée 3 cours/semaines</p>
                             </div>
                             <div class="d-flex justify-content-start ">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hexa_point.png" alt="hexa" width="25px" height="30px" class="margabophoto">
@@ -38,7 +38,7 @@
                             <a href="#" class="btn btn-primary custom-button-sh">Bouton</a>
                             <div class="d-flex justify-content-start  margetextabo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hexa_point.png" alt="hexa" width="25px" height="30px" class="margabophoto">
-                                <p class="text-start">Réservation limité 3 cours/semaines</p>
+                                <p class="text-start">Réservation limitée à 3 cours/semaine.</p>
                             </div>
                             <div class="d-flex justify-content-start ">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hexa_point.png" alt="hexa" width="25px" height="30px" class="margabophoto">
@@ -61,12 +61,11 @@
                             <a href="#" class="btn btn-primary custom-button-sh">Bouton</a>
                             <div class="d-flex justify-content-start  margetextabo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hexa_point.png" alt="hexa" width="25px" height="30px" class="margabophoto">
-                                <p class="text-start">Réservation illimité <br>Accès libre</p>
+                                <p class="text-start">Réservation illimitée <br>Accès libre</p>
                             </div>
                             <div class="d-flex justify-content-start ">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hexa_point.png" alt="hexa" width="25px" height="30px" class="margabophoto">
-                            <p class="text-start">Suivie personnelle par les 
-coachs sur demande</p>
+                            <p class="text-start">Suivi personnel par les coachs sur demande.</p>
                             </div>
                         </div>
                      
@@ -99,7 +98,7 @@ coachs sur demande</p>
 <textarea cols="57" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
 </p>
   
-<a href="#" class="btn btn-primary custom-button-sh">Envoyer</a>
+<a href="#" class="btn btn-primary custom-button-kh">Envoyer</a>
   </form>
 </div>
 </section>

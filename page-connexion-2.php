@@ -30,7 +30,7 @@
                                     <a href="#" class="btn btn-primary custom-button-b">Annuler</a>
                                 </div>
                         </div>
-                        <p class="coursblanc ">tatata</p>
+                        <p class="coursblanc ">Danse contempo</p>
                     </div>
                     <div class="col-2">
                         <div class="cours-card d-flex">
@@ -39,26 +39,10 @@
                                     <a href="#" class="btn btn-primary custom-button-b">Annuler</a>
                                 </div>
                         </div>
-                        <p class="coursblanc ">tatata</p>
+                        <p class="coursblanc ">Box</p>
                     </div>
-                    <div class="col-2">
-                        <div class="cours-card d-flex">
-                        <img src="#" alt="">
-                                <div class="card-button-b">
-                                    <a href="#" class="btn btn-primary custom-button-b">Annuler</a>
-                                </div>
-                        </div>
-                        <p class="coursblanc ">tatata</p>
-                    </div>
-                    <div class="col-2">
-                        <div class="cours-card d-flex">
-                        <img src="#" alt="">
-                                <div class="card-button-b">
-                                    <a href="#" class="btn btn-primary custom-button-b">Annuler</a>
-                                </div>
-                        </div>
-                        <p class="coursblanc ">tatata</p>
-                    </div>
+                    
+                    
                     <div class="col-2">
                         <div class="cours-card d-flex">
                             <div class="card-button-plus d-flex">
@@ -79,7 +63,7 @@
                                     <a href="#" class="btn btn-primary custom-button-b">Annuler</a>
                                 </div>
                         </div>
-                        <p class="coursnoir ">tatata</p>
+                        <p class="coursnoir ">Abdo/Fessier</p>
                     </div>
                     <div class="col-2">
                         <div class="cours-card-2 d-flex">
@@ -88,26 +72,10 @@
                                     <a href="#" class="btn btn-primary custom-button-b">Annuler</a>
                                 </div>
                         </div>
-                        <p class="coursnoir ">tatata</p>
+                        <p class="coursnoir ">Abdo/Fessier</p>
                     </div>
-                    <div class="col-2">
-                        <div class="cours-card-2 d-flex">
-                            <img src="#" alt="">
-                                <div class="card-button-b">
-                                    <a href="#" class="btn btn-primary custom-button-b">Annuler</a>
-                                </div>
-                        </div>
-                        <p class="coursnoir ">tatata</p>
-                    </div>
-                    <div class="col-2">
-                        <div class="cours-card-2 d-flex">
-                            <img src="#" alt="">
-                                <div class="card-button-b">
-                                    <a href="#" class="btn btn-primary custom-button-b">Annuler</a>
-                                </div>
-                        </div>
-                        <p class="coursnoir ">tatata</p>
-                    </div>
+                    
+                    
                     <div class="col-2">
                         <div class="cours-card-2 d-flex">
                             <div class="card-button-plus d-flex">

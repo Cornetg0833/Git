@@ -5,7 +5,7 @@
         Error 404...
     </div>
     <div>
-        <a href="<?= home_url('/index');?>" class="btn btn-primary custom-button-sh">Retourner a l'acceuil</a>
+        <a href="<?= home_url('/index');?>" class="btn btn-primary custom-button-sh">Retourner à l'accueil</a>
     </div>
 </div>
 
