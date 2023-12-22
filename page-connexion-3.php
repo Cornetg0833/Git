@@ -7,7 +7,7 @@
                 <li class="profilliste "> 
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_profil.png" alt="toz"> 
                 </li>
-                <li class="color-list"><h3> <b>Mamira Salamie </b></h3></li>
+                <li class="color-list"><h3> <b>Pierre Carnier </b></h3></li>
                 <li class="nav-item interliste ">
                     <a class="nav-link btn btn-primary custom-button-noir container"  href="<?= home_url('/connexion_1');?>">Mon profil</a>
                 </li>

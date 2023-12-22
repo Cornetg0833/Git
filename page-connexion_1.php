@@ -7,7 +7,7 @@
                 <li class="profilliste "> 
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_profil.png" alt="toz"> 
                 </li>
-                <li class="color-list"><h3> <b>Mamira Salamie </b></h3></li>
+                <li class="color-list"><h3> <b>Pierre Carnier </b></h3></li>
                 <li class="nav-item interliste ">
                     <a class="nav-link active btn btn-primary custom-button-noir container" aria-current="page" href="#">Mon profil</a>
                 </li>
@@ -25,16 +25,16 @@
                 <div class="row fondnoir container">
                     <div class="col-3 offset-md-1">
                         <ul class="">
-                            <li> Nom </li>
-                            <li> Prénom </li>
-                            <li> Age </li>
+                            <li> Carnier </li>
+                            <li> Pierre </li>
+                            <li> 27ans </li>
                         </ul>
                     </div>
-                    <div class="col-2">
+                    <div class="col-5">
                         <ul class="">
-                            <li> E-mail </li>
-                            <li> Tel </li>
-                            <li> Adresse </li>
+                            <li> Pierre.Carnier@gmail.com </li>
+                            <li> 0456/78.90.12 </li>
+                            <li> Avenu de la chaudière, 32, 5001, Namure </li>
                         </ul>
                     </div>
                 </div>

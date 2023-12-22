@@ -59,7 +59,7 @@
                     <?php endif; ?>
                     </div>
                     
-            
+                    </div>
         </div>
     </div>
 </div>
@@ -78,7 +78,7 @@
                     <div class="card-body">
                         <h3 class="card-title">30€</h3>
                         <p class="card-text">/4 semaines</p>
-                        <a href="#" class="btn btn-primary custom-button-sh">Bouton</a>
+                        <a href="<?= home_url('/abonnements');?>" class="btn btn-primary custom-button-sh">Voir plus</a>
                     </div>   
                         <div class="inner-shape centrertext alignitem1">
                             <h5 class="fondjaune"> Student </h5>
@@ -92,10 +92,10 @@
                     <div class="card-body">
                         <h3 class="card-title">35€</h3>
                         <p class="card-text">/4 semaines</p>
-                        <a href="#" class="btn btn-primary custom-button-sh">Bouton</a> 
+                        <a href="<?= home_url('/abonnements');?>" class="btn btn-primary custom-button-sh">Voir plus</a> 
                     </div>
                         <div class="inner-shape centrertext alignitem1">
-                            <h5 class="fondjaune"> Student </h5>
+                            <h5 class="fondjaune"> Basic </h5>
                         </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                         <h3 class="card-title">42€</h3>
                         <p class="card-text">/4 semaines</p>
                     
-                        <a href="#" class="btn btn-primary custom-button-sh">Bouton</a>
+                        <a href="<?= home_url('/abonnements');?>" class="btn btn-primary custom-button-sh">Voir plus</a>
                     </div>
                         <div class="inner-shape centrertext alignitem1">
                             <h5 class="fondjaune"> VIP </h5>
@@ -137,7 +137,7 @@
   if ($coachs->have_posts()): // ici je vérifie que $formule_hive posède bien mes posts
 ?>
 
-    <section class="testi">
+<section class="testi">
     <div class="container container-carou">
         <div class="slider-wrapper">
             <button id="prev-slide" class="slide-button material-symbols-outlined"> Chevron_left</button>
@@ -171,31 +171,25 @@
 
 <!--formulaire contacte-->
 <div id="section-cible">
-<section class="container-fluid margincontacte divconta"> 
-    <h1 class="texth1">Des <b>questions?</b></h1>
-<div class="container d-flex justify-content-center">
-  <form action="/action_page.php" class="minimalw">
-    <label for="fname">Nom</label>
-    <input type="text" id="fname" name="firstname">
-
-    <label for="lname">Prénom</label>
-    <input type="text" id="lname" name="lastname">
-
-      <label for="lname">Adresse mail</label>
-    <input type="text" id="lname" name="mail" >
-    
-    <DIV class="test divconta">
-       <label for="lname">Votre message</label>
-      </DIV>
-<textarea cols="57" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label>
-</p>
-  
-<a href="#" class="btn btn-primary custom-button-sh">Envoyer</a>
-  </form>
+    <section class="container-fluid margincontacte divconta"> 
+        <h1 class="texth1">Des <b>questions?</b></h1>
+            <div class="container d-flex justify-content-center">
+                <form action="/action_page.php" class="minimalw">
+                    <label for="fname">Nom</label>
+                        <input type="text" id="fname" name="firstname">
+                    <label for="lname">Prénom</label>
+                        <input type="text" id="lname" name="lastname">
+                    <label for="lname">Adresse mail</label>
+                        <input type="text" id="lname" name="mail" >
+                            <div class="test divconta">
+                                <label for="lname">Votre message</label>
+                            </div>
+                        <textarea cols="57" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" name="your-message"></textarea></span> </label></p> 
+                            <a href="#" class="btn btn-primary custom-button-kh">Envoyer</a>
+                </form>
+            </div>
+    </section>
 </div>
-</section>
-</div>
-
 
 
 <?php get_footer(); ?> 

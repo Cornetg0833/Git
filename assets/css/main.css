@@ -318,6 +318,23 @@ div button.customy{
     color: #222831;
   }
 
+  .custom-button-kh {
+    background-color: #ffb900; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    border: none; /* Supprimer la bordure par défaut du bouton Bootstrap */
+    cursor: pointer;
+    clip-path: polygon(100% 0, 100% 70%, 85% 100%, 0 100%, 0 30%, 15% 0); /* Modifier cette valeur selon la forme souhaitée */
+    border-radius: 0;
+  }
+
+  .custom-button-kh:hover {
+
+    background-color: #222831;
+    color: #eeeeee;
+  }
+
+
   .custom-button-vh {
     background-color: #ffb900; /* Couleur de fond du bouton */
     color: #fff; /* Couleur du texte du bouton */

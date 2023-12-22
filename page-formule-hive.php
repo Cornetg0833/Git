@@ -18,7 +18,7 @@
                     </p>
                         <div class="text-center">
                             <a class="btn btn-primary custom-button-sh margeboutonhive" href="<?= home_url('/#');?>">Participer</a>
-                            <a class="btn btn-primary custom-button-sh margeboutonhive" href="<?= home_url('/#');?>">proposer </a> 
+                            <a class="btn btn-primary custom-button-sh margeboutonhive" href="<?= home_url('/#');?>">Proposer </a> 
                         </div>
                 </div>
             </div>

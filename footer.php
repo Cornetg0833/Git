@@ -10,6 +10,7 @@
                 </div>
                 <div class="col-3 offset-1 order-2 contenuf respfooterfals align-self-center">
                 <ul class="navbar-nav">
+                    
                         <li class="nav-item ">
                             <a class="nav-link " href="#">A propos</a></li>
                         <li class="nav-item ">
@@ -17,7 +18,7 @@
                         <li class="nav-item ">
                             <a class="nav-link " href="#">Abonnements</a> </li>
                         <li class="nav-item ">
-                            <a class="nav-link " href="#">Contacte</a></li>
+                            <a class="nav-link " href="#">Contact</a></li>
                         <li class="nav-item ">
                             <a class="nav-link " href="#">Connexion</a> </li>
                     </ul>
@@ -30,10 +31,15 @@
                         <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
                         <button class="btn " type="button" id="button-addon2"><img class="" id="logo_envoyer" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_envoyer.png" alt="envoyer"></button>
                     </div>
+                   
                 </div>
+                
             </div>
         </div>
     </section>
+
+   
+
     <section class="container-fuid bg_footer respfootertrue">
         <div class="container">
             <div class="row ">
@@ -44,15 +50,15 @@
                 <div class="col-10 offset-1 order-2 contenuf d-flex justify-content-center ">
                     <ul class="navbar-nav  ">
                         <li class="nav-item ">
-                            <a class="nav-link text-center" href="#">A propos</a></li>
+                            <a href="<?= get_home_url('/a-propos');?>" class="nav-link text-center">A propos</a></li>
                         <li class="nav-item ">
-                            <a class="nav-link text-center" href="#">Cours</a> </li>
+                            <a href="<?= get_home_url('/formule-hive');?>" class="nav-link text-center">Cours</a> </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-center" href="#">Abonnements</a> </li>
+                            <a href="<?= get_home_url('/abonnements');?>" class="nav-link text-center" >Abonnements</a> </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-center" href="#">Contacte</a></li>
+                            <a href="#section-cible" class="nav-link text-center" >Contacte</a></li>
                         <li class="nav-item ">
-                            <a href="<?= home_url('/connexion_1');?>" class="nav-link text-center" >Connexion</a> </li>
+                            <a href="<?= get_home_url('/connexion_1');?>" class="nav-link text-center" >Connexion</a> </li>
                     </ul>
                 </div>
                 <div class="d-flex flex-column mb-3 justify-content-center ">
@@ -64,7 +70,7 @@
                      </div>
                     <div class="p-2 text-center boutonenv"><input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
                     <br>
-                        <<button class="btn " type="button" id="button-addon2"><img class="" id="logo_envoyer" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_envoyer.png" alt="envoyer"></button>
+                        <button class="btn " type="button" id="button-addon2"><img class="" id="logo_envoyer" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_envoyer.png" alt="envoyer"></button>
                     </div>
                      </div>      
                     </div>
@@ -74,7 +80,8 @@
         </div>
 
     </section>
-    <section class=" border-top border-warning container-fluid">
+
+    <section class=" border-top border-warning container-fluid ">
         <div class="container ">
             <div class="row align-items-center ">
                 <div class="col-6 me-auto">
@@ -88,12 +95,13 @@
                 <div class="col-3 text-end">
                 
                             <a class="" href="#"><img class="imgtaille" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_fb.png" alt="fb"></a>
-                            <a class="" href="#"><img class="imgtaille" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_insta.png" alt="fb"></a>
-                            <a class="" href="#"><img class="imgtaille" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_mail.png" alt="fb"></a>
+                            <a class="" href="#"><img class="imgtaille" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_insta.png" alt="insta"></a>
+                            <a class="" href="#"><img class="imgtaille" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo_mail.png" alt="mail"></a>
         
                 </div>
             </div>
         </div>
     </section>
+
 </footer>
 </html>
