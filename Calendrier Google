@@ -1,0 +1,6 @@
+Importer un agenda Google : 
+1. ajouter le URL : https://calendar.google.com/calendar/embed?src=89adb94c8965520380e2dd18addafc7a6c1cd83a93fc0b476affc1594eb8377b%40group.calendar.google.com&ctz=Europe%2FBrussels
+
+2. ajouter le code d'intégration : <iframe src="https://calendar.google.com/calendar/embed?src=89adb94c8965520380e2dd18addafc7a6c1cd83a93fc0b476affc1594eb8377b%40group.calendar.google.com&ctz=Europe%2FBrussels" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+-> On peu changer la taille et le style du calendrier dans le code d'intégration. 
