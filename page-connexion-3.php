@@ -23,8 +23,8 @@
             <div class="paddinginfo">
                 <h3>Calendrier</h3>
             </div>
-            <div class="container">
-
+            <div class="container text-center">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Work in progress.png" alt="" class="imgwork2">
             </div>
         </div>
     </div>

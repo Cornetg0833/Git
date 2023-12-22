@@ -33,7 +33,8 @@
             <H2>Le <b>Calendrier</b></h2>
         </div>
 
-        <div class="workinprogress">
+        <div class="workinprogress text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Work in progress.png" alt="" class="imgwork">
         </div>
     </section>
 
