@@ -84,9 +84,9 @@
     <section class=" border-top border-warning container-fluid ">
         <div class="container ">
             <div class="row align-items-center ">
-                <div class="col-6 me-auto">
+                <div class="col-7 me-auto">
                     <nav class="nav container">
-                        <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/');?>">copyright </a>
+                        <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/');?>">©SportHive2023 </a>
                         <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/politique');?>">Politique de confidentialité </a>
                         <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/cookies');?>">Cookies </a>
                         <a class="nav-link basfooter link-light fw-light" href="<?= home_url('/conditions-general');?>">Conditions générales </a>
