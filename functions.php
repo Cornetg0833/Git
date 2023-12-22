@@ -57,8 +57,36 @@ function create_post_type() {	 // function dans la quel j'ajouterais tous mes ty
   	'rewrite' => ['slug' => 'formule_hive'], // j'applique une réécriture d'url "services" au lieu de "slug"
 		'menu_icon' => 'dashicons-heading' // je lui précise une icon dans la bar d'outil de l'admin wordpress
 	]);
+
+  //A propos
+  register_post_type('A propos'/* le nom de mon type de contenu */, [ // tableau avec mes options 
+		'labels' => [ // ça sera le nom afficher dans mon menu word press avec la traduction
+			'name' => __('A propos'), // __() permet a wordpress que c'est contenu de traduction
+			'singular_name' => __('A propos')
+		],
+    'supports' => ['title', 'editor', 'thumbnail'], // on precise que notre post_type support title(un titre), editor(l'éditeur de contenu) et thumbnail(une photo a la une)
+		'public' => true, // c'est un post_type publique
+		'has_archive' => false, // en cas de suppression on peut retrouver notre post disparu
+  	'rewrite' => ['slug' => 'A propos'], // j'applique une réécriture d'url "services" au lieu de "slug"
+		'menu_icon' => 'dashicons-heart' // je lui précise une icon dans la bar d'outil de l'admin wordpress
+	]);
+
+  //Sport Hive
+  register_post_type('Sport Hive'/* le nom de mon type de contenu */, [ // tableau avec mes options 
+		'labels' => [ // ça sera le nom afficher dans mon menu word press avec la traduction
+			'name' => __('Sport Hive'), // __() permet a wordpress que c'est contenu de traduction
+			'singular_name' => __('Sport Hive')
+		],
+    'supports' => ['title', 'editor', 'thumbnail'], // on precise que notre post_type support title(un titre), editor(l'éditeur de contenu) et thumbnail(une photo a la une)
+		'public' => true, // c'est un post_type publique
+		'has_archive' => false, // en cas de suppression on peut retrouver notre post disparu
+  	'rewrite' => ['slug' => 'Sport Hive'], // j'applique une réécriture d'url "services" au lieu de "slug"
+		'menu_icon' => 'dashicons-heart' // je lui précise une icon dans la bar d'outil de l'admin wordpress
+	]);
 }
 add_action('init', 'create_post_type');
+
+
 
 
 

@@ -1,29 +1,57 @@
 <?php get_header(); ?>
 
 <section classe=" propos"> 
+<?php
+  $Apropos = new WP_Query([ // je crée une variable $Apropos
+    'post_type' => 'A propos', // la je précise quel post_type je veux (dans mon cas "Apropos")
+    'post_status' => 'publish', // la je précise que je veux des posts qui sont publié
+    'limit' => 3, // dans mon cas je n'en ai besoin que de trois
+    'orderby' => 'date', // je les trie par date 
+    'date' => true // je récupéère ma date
+  ]);
+
+  if ($Apropos->have_posts()): // ici je vérifie que $Apropos posède bien mes posts
+?>
     <div class="container">
-    <h1 class="h1propos">A propos </h1>
+    <?php 
+      while ($Apropos->have_posts()): // la je lance ma boucle sur mes posts contenu dans Apropos
+      $Apropos->the_post(); // la récupère mon post
+    ?>
+    <h1 class="h1propos"><?php the_title(); ?> </h1>
 
     <div class="container d-flex">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/homme_femme.png" alt="img" height="200px" class="imgpropos">
-        <p><b>La salle de sport SportHive</b> a été créée en janvier 2023 par Guillaume 
-            Cornet et Amira Samaali. 
-            <br>L’idée d’une salle de sport où l’ont peu découvrir de nouvelles
-            activités sportives chaque mois grâce aux différents coachs sportif 
-            et à la <b>Formule Hive</b> qui permet aux amateurs ou aux professionnels 
-            à proposer un cours de sport aux personnes ayant un abonnement.
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/homme_femme.png" alt="<?php the_title() ?> | A propos | <?php echo bloginfo('name'); ?>" height="200px" class="imgpropos">
+        <p><?php the_content(); ?>
         </p>       
     </div>
     </div>
+    <?php endwhile; ?>
+    <?php else: ?>
+<?php endif; ?>
+
+
+
     <div class="text-center backgrounpropos container-fluid">
+        <?php $SportHive = new WP_Query([ // je crée une variable $SportHive
+            'post_type' => 'Sport Hive', // la je précise quel post_type je veux (dans mon cas "SportHive")
+            'post_status' => 'publish', // la je précise que je veux des posts qui sont publié
+            'limit' => 3, // dans mon cas je n'en ai besoin que de trois
+            'orderby' => 'date', // je les trie par date 
+            'date' => true // je récupéère ma date
+             ]);
+
+            if ($SportHive->have_posts()): ?>
         <div class="container text-center">
-    <img class="text-center" id="logofooter" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_blanc.png" alt="SportHive">
-        <p>Le nom inventé par <b>Guillaume Cornet et Amira Samaali</b>, donne l’idée d’une salle de sport privé, familial et unie comme une ruche d’abeille. 
-            « Hive » qui veut dire ruche en langue anglaise, les créateurs ont eu l’idée d’unir la couleur jaune et la signification du mot pour créer un 
-            projet qui se dit familial et uni. Tout le monde est considéré et apprécié dans la salle de sport, les coachs toujours disponibles pour aider nos 
-            adhérents ou leur proposer des coachings spécifiques pour chacun. </p>
-</div>
+        <?php while ($SportHive->have_posts()): // la je lance ma boucle sur mes posts contenu dans SportHive
+            $SportHive->the_post(); ?>
+            <img class="text-center" id="logofooter" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_blanc.png" alt="<?php the_title() ?> | Sport Hive | <?php echo bloginfo('name'); ?>">
+                <p><?php the_content(); ?></p>
         </div>
+        <?php endwhile; ?>
+        <?php else: ?>
+    <?php endif; ?>
+    </div>
+    
 
 <div class="container">
     <h2 class="h2propos">La vidéo</h2>
