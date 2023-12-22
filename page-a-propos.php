@@ -20,7 +20,7 @@
     <h1 class="h1propos"><?php the_title(); ?> </h1>
 
     <div class="container d-flex">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/homme_femme.png" alt="<?php the_title() ?> | A propos | <?php echo bloginfo('name'); ?>" height="200px" class="imgpropos">
+        <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title() ?> | A propos | <?php echo bloginfo('name'); ?>" height="200px" class="imgpropos">
         <p><?php the_content(); ?>
         </p>       
     </div>
@@ -44,7 +44,7 @@
         <div class="container text-center">
         <?php while ($SportHive->have_posts()): // la je lance ma boucle sur mes posts contenu dans SportHive
             $SportHive->the_post(); ?>
-            <img class="text-center" id="logofooter" src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo_Sport_Hive_blanc.png" alt="<?php the_title() ?> | Sport Hive | <?php echo bloginfo('name'); ?>">
+            <img class="text-center" id="logofooter" src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title() ?> | Sport Hive | <?php echo bloginfo('name'); ?>">
                 <p><?php the_content(); ?></p>
         </div>
         <?php endwhile; ?>
